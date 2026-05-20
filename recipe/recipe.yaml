@@ -1,7 +1,7 @@
 context:
   name: altair-aitools-runtime
-  version: 1.1
-  python_min: 3.10
+  version: 1.2rc1
+  python_min: 3.12
 
 package:
   name: ${{ name|lower }}
@@ -23,12 +23,13 @@ requirements:
   - pip
   run:
   - python >=${{ python_min }}
-  - numpy >=1.24
+  - numpy >=1.24.4
   - packaging >=24.1
-  - pandas >=2.0.0
-  - pydantic >=2.0.0
+  - pandas >=2.0.3
+  - pydantic >=2.0.3
   - rapidminer >=2024.1.0
-  - websockets >=12.0,<14
+  - websockets >=16.0
+  - pyarrow >=19.0.1
 
 tests:
   - python:
