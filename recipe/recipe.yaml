@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://maven.rapidminer.com/repository/pypi-snapshot/packages/altair-aitools-runtime/${{ version }}/altair_aitools_runtime-${{ version }}.tar.gz
-  sha256: 4e8cbc77b1e52635352d7f6fb328677fcfbcf7b48d6e7e0b9b7bbb289f7820e2
+  sha256: 2978cecbf3cee41a07794b9208cc4ae632647c163803c9077e5d90143f2bba6c
 
 build:
   number: 0
