@@ -1,6 +1,6 @@
 context:
   name: altair-aitools-runtime
-  version: 1.2
+  version: "1.2"
   python_min: "3.12"
 
 package:
