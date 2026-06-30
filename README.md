@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/altair-aitools-
 
 Home: https://altair.com/altair-rapidminer
 
-Package license: AGPL-3.0-only
+Package license: Apache-2.0
 
 Summary: altair-aitools-runtime is a comprehensive package that provides a set of tools to run Altair RapidMiner AI tools extensions in Python.
 
