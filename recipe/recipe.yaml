@@ -36,7 +36,7 @@ tests:
 
 about:
   summary: altair-aitools-runtime is a comprehensive package that provides a set of tools to run Altair RapidMiner AI tools extensions in Python.
-  license: AGPL-3.0-only
+  license: Apache-2.0
   license_file: LICENSE
   homepage: https://altair.com/altair-rapidminer
 
