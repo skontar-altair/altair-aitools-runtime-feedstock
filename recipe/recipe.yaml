@@ -1,6 +1,6 @@
 context:
   name: altair-aitools-runtime
-  version: 1.2rc1
+  version: 1.2
   python_min: "3.12"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://maven.rapidminer.com/repository/pypi-snapshot/packages/altair-aitools-runtime/${{ version }}/altair_aitools_runtime-${{ version }}.tar.gz
-  sha256: 2978cecbf3cee41a07794b9208cc4ae632647c163803c9077e5d90143f2bba6c
+  sha256: 972d79e683f4beb73e0acaee41f5d487e58a36041d6814853fee4a080e0f0512
 
 build:
   number: 0
@@ -22,14 +22,7 @@ requirements:
   - hatchling
   - pip
   run:
-  - python >=${{ python_min }}
-  - numpy >=1.24.4
-  - packaging >=24.1
-  - pandas >=2.0.3
-  - pydantic >=2.0.3
-  - rapidminer >=2024.1.0
-  - websockets >=16.0
-  - pyarrow >=19.0.1
+  - rapidminer-ai-runtime 2.0.*
 
 tests:
   - python:
